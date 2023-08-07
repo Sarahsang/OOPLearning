@@ -12,3 +12,5 @@ class laptop:
     
 m550 = laptop('HP',50000)
 print(m550.apply_discount())
+# 格式化 formatting
+print("{} {} {}".format(m550.brand_name,m550.price,m550.apply_discount()))
