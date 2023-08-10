@@ -1,5 +1,6 @@
 class Elevator:
-    def__init__(self, currentFloor):
-        self.currentFloor = currentFloor
+    def __init__(self, currentFloor):
+        self.currentFloor = 0
         
-    def moveUp(self):
+    def gotoFloor(self):
+        
