@@ -13,6 +13,7 @@ window.geometry('500x400')
 
 var=tk.StringVar()
 
+#label多用于不需要更改的文本例如标题说明 状态信息 用户指示 状态提醒或者展示从其他控件或程序中获取的数据
 l = tk.Label(window, textvariable=var, bg='green', font=('Arial', 12),width = 15, height=2)
 l.pack() #放在某个地方
 
